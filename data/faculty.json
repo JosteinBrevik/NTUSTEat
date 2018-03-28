@@ -1,3 +1,16 @@
 {
-  "restaurants": []
+  "restaurants": [
+    {
+      "name": "general buffet",
+      "dishes": []
+    },
+    {
+      "name": "fast-food and noodles",
+      "dishes": []
+    },
+    {
+      "name": "tea-bar",
+      "dishes": []
+    }
+  ]
 }

@@ -1,3 +1,44 @@
 {
-  "restaurants": []
+  "restaurants": [
+    {
+      "name": "chinese pastries and snacks",
+      "dishes": []
+    },
+    {
+      "name": "stewed delicacies",
+      "dishes": []
+    },
+    {
+      "name": "bakery",
+      "dishes": []
+    },
+    {
+      "name": "vegetarian buffet",
+      "dishes": []
+    },
+    {
+      "name": "steamed and fried dumplings",
+      "dishes": []
+    },
+    {
+      "name": "general buffet",
+      "dishes": []
+    },
+    {
+      "name": "shallot pie",
+      "dishes": []
+    },
+    {
+      "name": "japanese food",
+      "dishes": []
+    },
+    {
+      "name": "hot snacks",
+      "dishes": []
+    },
+    {
+      "name": "drink shop",
+      "dishes": []
+    }
+  ]
 }

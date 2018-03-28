@@ -12,29 +12,38 @@ import { TabNavigator } from 'react-navigation';
 class RestaurantMenu extends React.Component {
   constructor(props) {
     super(props);
-    //console.log(props.navigation);
     this.state = {
-      name: props.navigation.state.params.name,
+      restaurantName: props.navigation.state.params.name,
       cantina: props.navigation.state.params.cantina,
       dishes: props.navigation.state.params.dishes
     };
   }
 
+  static navigationOptions = ({ navigation }) => ({
+    title:
+      navigation.state.params.name.toUpperCase() +
+      ' - ' +
+      navigation.state.params.cantina.toUpperCase()
+  });
+
+  _openItemOnPress(name) {
+    Alert.alert(name);
+  }
+
   render() {
-    //const url = '../data/' + this.state.cantina.toLowerCase() + '.json';
-    const data = this.state.url;
-    //const dishes = data.restaurants.name;
-    console.log(this.state.dishes[0].dishes);
     return (
       <View>
-        <Text>{this.state.name + ' ' + this.state.cantina}</Text>
         <FlatList
-          data={this.state.dishes[0].dishes}
+          data={this.state.dishes}
           renderItem={({ item }) => (
-            <TouchableHighlight>
-              <Text style={styles.itemText}>
-                {item.name.toUpperCase() + '    ' + item.price}
-              </Text>
+            //<TouchableHighlight onPress={() => Alert.alert(item.name)}>
+            <TouchableHighlight
+              onPress={() => this._openItemOnPress(item.name)}
+            >
+              <View style={styles.listItem}>
+                <Text style={styles.itemText}>{item.name.toUpperCase()}</Text>
+                <Text style={styles.itemText}>{item.price}</Text>
+              </View>
             </TouchableHighlight>
           )}
           keyExtractor={(item, index) => index}
@@ -48,12 +57,16 @@ const styles = StyleSheet.create({
   listItem: {
     backgroundColor: '#DDDDDD',
     width: '100%',
-    marginBottom: 10
+    marginBottom: 10,
+    flex: 1,
+    flexDirection: 'row',
+    justifyContent: 'space-between'
   },
 
   itemText: {
     marginLeft: 15,
-    fontSize: 24,
+    marginRight: 15,
+    fontSize: 12,
     padding: 10
   }
 });

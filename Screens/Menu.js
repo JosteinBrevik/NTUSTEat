@@ -16,9 +16,9 @@ class Cantena extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      restaurants: data.cantinas[props.number].restaurants,
+      restaurantNames: data.cantinas[props.number].restaurants,
       cantina: data.cantinas[props.number].name,
-      dishes: props.url.restaurants
+      restaurantDishes: props.url.restaurants
     };
   }
 
@@ -26,16 +26,18 @@ class Cantena extends React.Component {
     return (
       <View style={{ flex: 1, alignItems: 'stretch' }}>
         <FlatList
-          data={this.state.restaurants}
+          data={this.state.restaurantNames}
           renderItem={({ item }) => (
             <TouchableHighlight
               style={styles.listItem}
               onPress={() => {
-                dishs = this.state.dishes.filter(e => e.name === item);
-                this.props.navigator.navigate('Dishes', {
+                selectedItem = this.state.restaurantDishes.filter(
+                  e => e.name === item
+                );
+                this.props.navigator.navigate('Restaurant', {
                   name: item,
                   cantina: this.state.cantina,
-                  dishes: dishs
+                  dishes: selectedItem[0].dishes
                 });
               }}
             >
@@ -94,28 +96,13 @@ const styles = StyleSheet.create({
 
   itemText: {
     marginLeft: 15,
-    fontSize: 24,
+    fontSize: 20,
     padding: 10
   }
 });
 
-const RestaurantStack1 = StackNavigator({
-  Restaurants: { screen: Cantena1 },
-  Dishes: { screen: RestaurantMenu }
-});
-
-const RestaurantStack2 = StackNavigator({
-  Restaurants: { screen: Cantena2 },
-  Dishes: { screen: RestaurantMenu }
-});
-
-const RestaurantStack3 = StackNavigator({
-  Restaurants: { screen: Cantena3 },
-  Dishes: { screen: RestaurantMenu }
-});
-
 export default TabNavigator({
-  Sports: { screen: RestaurantStack1 },
-  EE: { screen: RestaurantStack2 },
-  Faculty: { screen: RestaurantStack3 }
+  Sports: { screen: Cantena1 },
+  EE: { screen: Cantena2 },
+  Faculty: { screen: Cantena3 }
 });
