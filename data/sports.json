@@ -1,0 +1,82 @@
+{
+  "restaurants": [
+    {
+      "name": "drink stand",
+      "dishes": []
+    },
+    {
+      "name": "noodles and dumplings",
+      "dishes": []
+    },
+    {
+      "name": "japanese curry",
+      "dishes": [
+        {
+          "name": "Pork Fillet Bowl",
+          "price": 65
+        },
+        {
+          "name": "Beef Bowl",
+          "price": 75
+        },
+        {
+          "name": "Chicken and Egg Bowl",
+          "price": 60
+        },
+        {
+          "name": "BBQ Pork Bowl",
+          "price": 65
+        },
+        {
+          "name": "Japanese Chicken Bowl",
+          "price": 60
+        }
+      ]
+    },
+    {
+      "name": "steak house",
+      "dishes": []
+    },
+    {
+      "name": "anna's kitchen",
+      "dishes": [
+        {
+          "name": "Singaporean Chicken Curry served with rice",
+          "price": 100
+        },
+        {
+          "name": "Nyonya Seafood Laksa",
+          "price": 100
+        },
+        {
+          "name": "Chicken Nanban served with rice",
+          "price": 90
+        }
+      ]
+    },
+    {
+      "name": "halal food",
+      "dishes": []
+    },
+    {
+      "name": "pork rib rice",
+      "dishes": []
+    },
+    {
+      "name": "korean food",
+      "dishes": []
+    },
+    {
+      "name": "breakfast",
+      "dishes": []
+    },
+    {
+      "name": "taiwan food",
+      "dishes": []
+    },
+    {
+      "name": "buffet",
+      "dishes": []
+    }
+  ]
+}

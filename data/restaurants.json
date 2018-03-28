@@ -1,0 +1,39 @@
+{
+  "cantinas": [
+    {
+      "name": "Sports",
+      "restaurants": [
+        "drink stand",
+        "noodles and dumplings",
+        "japanese curry",
+        "steak house",
+        "anna's kitchen",
+        "halal food",
+        "pork rib rice",
+        "korean food",
+        "breakfast",
+        "taiwan food",
+        "buffet"
+      ]
+    },
+    {
+      "name": "EE",
+      "restaurants": [
+        "chinese pastries and snacks",
+        "stewed delicacies",
+        "bakery",
+        "vegetarian buffet",
+        "steamed and fried dumplings",
+        "general buffet",
+        "shallot pie",
+        "japanese food",
+        "hot snacks",
+        "drink shop"
+      ]
+    },
+    {
+      "name": "Faculty",
+      "restaurants": ["general buffet", "fast-food and noodles", "tea-bar"]
+    }
+  ]
+}
