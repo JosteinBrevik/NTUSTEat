@@ -9,6 +9,7 @@ import {
 } from 'react-native';
 import { TabNavigator, StackNavigator } from 'react-navigation';
 import RestaurantMenu from './Restaurant.js';
+import SearchField from './Search.js';
 
 var data = require('../data/restaurants.json');
 
@@ -24,7 +25,7 @@ class Cantena extends React.Component {
 
   render() {
     return (
-      <View style={{ flex: 1, alignItems: 'stretch' }}>
+      <View style={styles.container}>
         <FlatList
           data={this.state.restaurantNames}
           renderItem={({ item }) => (
@@ -88,21 +89,42 @@ class Cantena3 extends React.Component {
 }
 
 const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    alignItems: 'stretch',
+    backgroundColor: '#CCCCCC'
+  },
   listItem: {
-    backgroundColor: '#DDDDDD',
-    width: '100%',
-    marginBottom: 10
+    backgroundColor: '#EEEEEE',
+    borderWidth: 1,
+    borderColor: '#DDDDDD',
+    width: '100%'
   },
 
   itemText: {
+    fontFamily: 'Roboto',
     marginLeft: 15,
     fontSize: 20,
     padding: 10
   }
 });
 
-export default TabNavigator({
-  Sports: { screen: Cantena1 },
-  EE: { screen: Cantena2 },
-  Faculty: { screen: Cantena3 }
-});
+export default TabNavigator(
+  {
+    Sports: { screen: Cantena1 },
+    EE: { screen: Cantena2 },
+    Faculty: { screen: Cantena3 },
+    Search: { screen: SearchField }
+  },
+  {
+    navigationOptions: ({ navigation }) => ({}),
+    tabBarOptions: {
+      style: {
+        backgroundColor: 'black'
+      },
+      activeBackgroundColor: 'gray',
+      activeTintColor: 'white'
+    },
+    animationEnabled: true
+  }
+);

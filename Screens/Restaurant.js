@@ -36,7 +36,6 @@ class RestaurantMenu extends React.Component {
         <FlatList
           data={this.state.dishes}
           renderItem={({ item }) => (
-            //<TouchableHighlight onPress={() => Alert.alert(item.name)}>
             <TouchableHighlight
               onPress={() => this._openItemOnPress(item.name)}
             >
@@ -55,7 +54,7 @@ class RestaurantMenu extends React.Component {
 
 const styles = StyleSheet.create({
   listItem: {
-    backgroundColor: '#DDDDDD',
+    borderColor: '#DDDDDD',
     width: '100%',
     marginBottom: 10,
     flex: 1,
