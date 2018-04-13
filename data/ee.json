@@ -10,7 +10,16 @@
     },
     {
       "name": "bakery",
-      "dishes": []
+      "dishes": [
+        {
+          "name": "Burger",
+          "price": 40
+        },
+        {
+          "name": "Custard cake",
+          "price": 22
+        }
+      ]
     },
     {
       "name": "vegetarian buffet",
