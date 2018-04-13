@@ -5,6 +5,7 @@ import thunkMiddleware from 'redux-thunk';
 import createLogger from 'redux-logger';
 import {
   StyleSheet,
+  Image,
   Text,
   View,
   StatusBar,
@@ -16,12 +17,30 @@ import { StackNavigator } from 'react-navigation';
 import MenuScreen from './Screens/Menu';
 import RestaurantScreen from './Screens/Restaurant';
 
+class LogoTitle extends React.Component {
+  render() {
+    return (
+      <Image
+        source={require('./ntust_logo.png')}
+        style={{ width: 30, height: 30 }}
+      />
+    );
+  }
+}
+
 //Main navigator for the app
 const Navigator = StackNavigator({
   Home: {
     screen: MenuScreen,
     navigationOptions: {
-      headerTitle: 'Lunch at 12?'
+      headerTitle: <LogoTitle />,
+      headerTitleStyle: {
+        color: 'black'
+      },
+      headerStyle: {
+        backgroundColor: 'white'
+      },
+      headerTintColor: '#ddd'
     }
   },
   Restaurant: {
