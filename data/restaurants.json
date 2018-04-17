@@ -3,37 +3,68 @@
     {
       "name": "Sports",
       "restaurants": [
-        "drink stand",
-        "noodles and dumplings",
-        "japanese curry",
-        "steak house",
-        "anna's kitchen",
-        "halal food",
-        "pork rib rice",
-        "korean food",
-        "breakfast",
-        "taiwan food",
-        "buffet"
+        {
+          "name": "noodles and dumplings",
+          "description":
+            "Serving a large selection of noodle, dumpling and wonton dishes, this is the place to get your asian on"
+        },
+        {
+          "name": "japanese curry",
+          "description":
+            "Various rice bowls, with and without curry. Also known as \"Blue place\""
+        },
+        {
+          "name": "steak house",
+          "description":
+            "Noodle or rice dishes that include steak and porkchop toppings. Served on hot plates. Known as the \"Green place\" "
+        },
+        {
+          "name": "amani fusion kitchen",
+          "description":
+            "Dishes from all around Asia, especially known for its Chicken Nanban and Singaporean chicken curry. Known as the \"Orange place\""
+        },
+        {
+          "name": "mediterranean",
+          "description":
+            "Food from all over the Mediterranean, usually involves beef, pork or fish. Many of the dishes are gratined, making this one of the few places at campus you can get cheesy food. Served with rice or macaroni. Menu changes weekly"
+        },
+        { "name": "pork rib rice", "description": "F" },
+        { "name": "korean food", "description": "G" },
+        {
+          "name": "breakfast",
+          "description":
+            "A popular place for a nice snack, each price includes a refreshing glass of milk tea"
+        },
+        { "name": "taiwan food", "description": "I" },
+        {
+          "name": "buffet",
+          "description":
+            "Provides a varied selection of meat, vegetables, fish and more. Perfect place if you're in the mood for everything. Price is based on weight"
+        }
       ]
     },
     {
       "name": "EE",
       "restaurants": [
-        "chinese pastries and snacks",
-        "stewed delicacies",
-        "bakery",
-        "vegetarian buffet",
-        "steamed and fried dumplings",
-        "general buffet",
-        "shallot pie",
-        "japanese food",
-        "hot snacks",
-        "drink shop"
+        { "name": "chinese pastries and snacks", "description": "K" },
+        { "name": "stewed delicacies", "description": "L" },
+        { "name": "bakery", "description": "M" },
+        { "name": "vegetarian buffet", "description": "N" },
+        { "name": "steamed and fried dumplings", "description": "O" },
+        { "name": "general buffet", "description": "P" },
+        { "name": "shallot pie", "description": "Q" },
+        { "name": "japanese food", "description": "R" },
+        { "name": "hot snacks", "description": "S" },
+        { "name": "drink shop", "description": "T" }
       ]
     },
     {
       "name": "Faculty",
-      "restaurants": ["general buffet", "fast-food and noodles", "tea-bar"]
+      "restaurants": [
+        { "name": "general buffet", "description": "U" },
+        { "name": "fast-food and noodles", "description": "V" },
+        { "name": "tea-bar", "description": "W" }
+      ]
     }
   ]
 }

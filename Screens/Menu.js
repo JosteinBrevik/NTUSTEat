@@ -17,7 +17,7 @@ class Cantena extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      restaurantNames: data.cantinas[props.number].restaurants,
+      restaurants: data.cantinas[props.number].restaurants,
       cantina: data.cantinas[props.number].name,
       restaurantDishes: props.url.restaurants
     };
@@ -27,22 +27,22 @@ class Cantena extends React.Component {
     return (
       <View style={styles.container}>
         <FlatList
-          data={this.state.restaurantNames}
+          data={this.state.restaurants}
           renderItem={({ item }) => (
             <TouchableHighlight
               style={styles.listItem}
               onPress={() => {
                 selectedItem = this.state.restaurantDishes.filter(
-                  e => e.name === item
+                  e => e.name === item.name
                 );
                 this.props.navigator.navigate('Restaurant', {
-                  name: item,
+                  restaurant: item,
                   cantina: this.state.cantina,
                   dishes: selectedItem[0].dishes
                 });
               }}
             >
-              <Text style={styles.itemText}>{item.toUpperCase()}</Text>
+              <Text style={styles.itemText}>{item.name.toUpperCase()}</Text>
             </TouchableHighlight>
           )}
           keyExtractor={(item, index) => index}
@@ -125,6 +125,7 @@ export default TabNavigator(
       activeBackgroundColor: 'gray',
       activeTintColor: 'white'
     },
-    animationEnabled: true
+    animationEnabled: true,
+    lazy: true
   }
 );

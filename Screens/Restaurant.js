@@ -3,7 +3,7 @@ import {
   Text,
   View,
   FlatList,
-  TouchableHighlight,
+  TouchableOpacity,
   Alert,
   StyleSheet
 } from 'react-native';
@@ -13,7 +13,7 @@ class RestaurantMenu extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      restaurantName: props.navigation.state.params.name,
+      restaurant: props.navigation.state.params.restaurant,
       cantina: props.navigation.state.params.cantina,
       dishes: props.navigation.state.params.dishes
     };
@@ -21,9 +21,15 @@ class RestaurantMenu extends React.Component {
 
   static navigationOptions = ({ navigation }) => ({
     title:
-      navigation.state.params.name.toUpperCase() +
+      navigation.state.params.restaurant.name.toUpperCase() +
       ' - ' +
-      navigation.state.params.cantina.toUpperCase()
+      navigation.state.params.cantina.toUpperCase(),
+    headerTitleStyle: {
+      fontSize: 15
+    },
+    headerStyle: {
+      height: 50
+    }
   });
 
   _openItemOnPress(name) {
@@ -32,18 +38,23 @@ class RestaurantMenu extends React.Component {
 
   render() {
     return (
-      <View>
+      <View style={{ flex: 1 }}>
+        <Text style={styles.description}>
+          {this.state.restaurant.description}
+        </Text>
         <FlatList
+          style={styles.list}
           data={this.state.dishes}
           renderItem={({ item }) => (
-            <TouchableHighlight
-              onPress={() => this._openItemOnPress(item.name)}
-            >
+            <TouchableOpacity onPress={() => this._openItemOnPress(item.name)}>
               <View style={styles.listItem}>
                 <Text style={styles.itemText}>{item.name.toUpperCase()}</Text>
-                <Text style={styles.itemText}>{item.price}</Text>
+                <Text style={styles.itemPrice}>
+                  {item.price}
+                  {',-'}
+                </Text>
               </View>
-            </TouchableHighlight>
+            </TouchableOpacity>
           )}
           keyExtractor={(item, index) => index}
         />
@@ -55,18 +66,38 @@ class RestaurantMenu extends React.Component {
 const styles = StyleSheet.create({
   listItem: {
     borderColor: '#DDDDDD',
+    borderBottomWidth: 1,
     width: '100%',
-    marginBottom: 10,
     flex: 1,
     flexDirection: 'row',
-    justifyContent: 'space-between'
+    alignItems: 'center',
+    justifyContent: 'center',
+    paddingBottom: 5,
+    paddingTop: 5
   },
-
+  list: {
+    flex: 1,
+    paddingBottom: 10
+  },
+  description: {
+    paddingHorizontal: 15,
+    paddingTop: 5,
+    paddingBottom: 10,
+    fontSize: 15,
+    backgroundColor: '#EEEEEE',
+    alignItems: 'center',
+    textAlign: 'center',
+    elevation: 1
+  },
   itemText: {
+    flex: 4,
     marginLeft: 15,
-    marginRight: 15,
-    fontSize: 12,
-    padding: 10
+    marginRight: 25,
+    fontSize: 15
+  },
+  itemPrice: {
+    flex: 1,
+    fontSize: 15
   }
 });
 export default RestaurantMenu;
