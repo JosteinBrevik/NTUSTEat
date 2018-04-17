@@ -11,18 +11,22 @@ import {
 import { TabNavigator } from 'react-navigation';
 
 class DishInfo extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+
   render() {
     const item = this.props.dish;
+
     return (
-      <View>
-        <View style={styles.dishRow}>
-          <Text style={styles.itemText}>
-            {item.name.toUpperCase()}
-            {'\n'}
-            {item.restaurant[0].toUpperCase() + item.restaurant.substr(1)}
-          </Text>
-          <Text style={styles.itemPrice}>{item.price},-</Text>
-        </View>
+      <View style={styles.dishRow}>
+        <Text style={styles.itemText}>
+          {item.name.toUpperCase()}
+          {'\n'}
+          {item.restaurant[0].toUpperCase() + item.restaurant.substr(1)} {' - '}{' '}
+          {item.cafeteria}
+        </Text>
+        <Text style={styles.itemPrice}>{item.price},-</Text>
       </View>
     );
   }
@@ -34,7 +38,8 @@ class SearchField extends React.Component {
     this.state = {
       data: this._getAllDishes(),
       inputText: '',
-      results: []
+      results: [],
+      lastItem: null
     };
   }
 
@@ -69,58 +74,44 @@ class SearchField extends React.Component {
       )
     ];
     data = [].concat(...data); //flatten array
-    //console.log(data);
 
     return data;
   }
 
   _search(text) {
     this.setState({ inputText: text });
-    console.log('Searching ' + text);
     var filtered = this.state.data.filter(
       e => text && e.name.toLowerCase().contains(text.toLowerCase())
     );
-
-    console.log('FILTERED');
-    console.log(filtered);
     this.setState({ results: filtered });
   }
-  componentDidMount() {
+
+  setFocus() {
     this.nameInput.focus();
   }
 
   render() {
-    console.log(this.state);
-    console.log(this.state.results);
     return (
       <View style={{ flex: 1 }}>
-        <View>
-          <TextInput
-            autoFocus={true}
-            ref={input => {
-              this.nameInput = input;
-            }}
-            style={{ height: 40, borderColor: 'gray', borderWidth: 1 }}
-            onChangeText={text => {
-              this._search(text);
-            }}
-            value={this.state.inputText}
-          />
-        </View>
-        <View style={{ flex: 1 }}>
-          <FlatList
-            style={{ flex: 1 }}
-            data={this.state.results}
-            renderItem={({ item }) => (
-              <TouchableHighlight
-                onPress={() => this._openItemOnPress(item.name)}
-              >
-                <DishInfo dish={item} />
-              </TouchableHighlight>
-            )}
-            keyExtractor={(item, index) => index}
-          />
-        </View>
+        <TextInput
+          autoFocus={true}
+          ref={input => {
+            this.nameInput = input;
+          }}
+          style={{ height: 40 }}
+          onChangeText={text => {
+            this._search(text);
+          }}
+          value={this.state.inputText}
+        />
+        <FlatList
+          style={{ flex: 1 }}
+          data={this.state.results}
+          renderItem={({ item }) => (
+            <DishInfo dish={item} lastItem={this.state.lastItem} />
+          )}
+          keyExtractor={(item, index) => index}
+        />
       </View>
     );
   }
@@ -128,12 +119,14 @@ class SearchField extends React.Component {
 
 const styles = StyleSheet.create({
   dishRow: {
-    borderColor: '#DDDDDD',
-    borderWidth: 1,
+    //borderColor: '#DDDDDD',
+    //borderWidth: 1,
     width: '100%',
     flex: 1,
     flexDirection: 'row',
-    marginBottom: 10
+    alignItems: 'center',
+    marginBottom: 10,
+    backgroundColor: '#EEEEEE'
   },
   itemText: {
     flex: 4,
