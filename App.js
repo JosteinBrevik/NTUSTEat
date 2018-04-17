@@ -22,7 +22,7 @@ class LogoTitle extends React.Component {
     return (
       <Image
         source={require('./ntust_logo.png')}
-        style={{ width: 30, height: 30 }}
+        style={{ width: 30, height: 30, marginRight: 10 }}
       />
     );
   }
@@ -33,12 +33,14 @@ const Navigator = StackNavigator({
   Home: {
     screen: MenuScreen,
     navigationOptions: {
-      headerTitle: <LogoTitle />,
+      headerTitle: 'NTUST Restaurants',
+      headerRight: <LogoTitle />,
       headerTitleStyle: {
         color: 'black'
       },
       headerStyle: {
-        backgroundColor: 'white'
+        backgroundColor: 'white',
+        height: 45
       },
       headerTintColor: '#ddd'
     }
