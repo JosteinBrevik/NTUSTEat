@@ -1,35 +1,262 @@
 {
   "restaurants": [
     {
-      "name": "drink stand",
-      "dishes": []
-    },
-    {
       "name": "noodles and dumplings",
-      "dishes": []
+      "dishes": [
+        {
+          "name": "Shrimp fried noodle",
+          "price": 85
+        },
+        {
+          "name": "Vegetable and pork fried noodle",
+          "price": 80
+        },
+        {
+          "name": "Pork fried noodle",
+          "price": 70
+        },
+        {
+          "name": "Shrimp & pork wonton noodle",
+          "price": 65
+        },
+        {
+          "name": "Vegetable & pork wonton noodle",
+          "price": 60
+        },
+        {
+          "name": "Pork wonton noodle",
+          "price": 50
+        },
+        {
+          "name": "Noodle with shredded vegetables",
+          "price": 100
+        },
+        {
+          "name": "Noodle with pork",
+          "price": 80
+        },
+        {
+          "name": "Noodle with pork liver",
+          "price": 70
+        },
+        {
+          "name": "Spicy dry noodle",
+          "price": 50
+        },
+        {
+          "name": "Noodle with minced pork and bean sauce",
+          "price": 50
+        },
+        {
+          "name": "Noodle with sesame sauce",
+          "price": 45
+        },
+        {
+          "name": "Noodle with spicy sesame and peanut sauce",
+          "price": 45
+        },
+        {
+          "name": "Pickled mustard and shredded pork noodle in soup",
+          "price": 70
+        },
+        {
+          "name": "Pickled cabbage and shredded pork noodle in soup",
+          "price": 70
+        },
+        {
+          "name": "Egg fried rice with shrimp",
+          "price": 85
+        },
+        {
+          "name": "Egg fried rice with sausage",
+          "price": 70
+        },
+        {
+          "name": "ADD THIS ONE",
+          "price": 70
+        },
+        {
+          "name": "Egg fried rice with sliced pork",
+          "price": 70
+        },
+        {
+          "name": "Egg fried rice",
+          "price": 50
+        },
+        {
+          "name": "Beef fried noodle with BBQ sauce",
+          "price": 80
+        },
+        {
+          "name": "Pork fried noodle with BBQ sauce",
+          "price": 75
+        },
+        {
+          "name": "Lamb fried noodle with BBQ sauce",
+          "price": 80
+        },
+        {
+          "name": "Shrimp fried noodle",
+          "price": 85
+        },
+        {
+          "name": "Vegetable fried noodle",
+          "price": 65
+        },
+        {
+          "name": "Ixed wonton with soup",
+          "price": 60
+        },
+        {
+          "name": "Vegetable & pork wonton with soup",
+          "price": 55
+        },
+        {
+          "name": "Pork wonton with soup",
+          "price": 50
+        },
+        {
+          "name": "Set A: Spicy dry noodle with mixed dumplings",
+          "price": 95
+        },
+        {
+          "name":
+            "Set B: Noodle with minced pork and bean sauce wih mixed dumplings",
+          "price": 95
+        },
+        {
+          "name": "Set C: Noodle with sesame sauce with mixed dumplings",
+          "price": 95
+        },
+        {
+          "name":
+            "Set D: Noodle with spicy sesame and peanut sauce with mixed dumplings",
+          "price": 95
+        }
+      ]
     },
     {
       "name": "japanese curry",
       "dishes": [
         {
-          "name": "Pork Fillet Bowl",
+          "name": "Pork fillet bowl",
           "price": 65
         },
         {
-          "name": "Beef Bowl",
+          "name": "Beef bowl",
           "price": 75
         },
         {
-          "name": "Chicken and Egg Bowl",
+          "name": "Chicken and egg bowl",
           "price": 60
         },
         {
-          "name": "BBQ Pork Bowl",
+          "name": "BBQ pork bowl",
           "price": 65
         },
         {
-          "name": "Japanese Chicken Bowl",
+          "name": "Japanese chicken bowl",
           "price": 60
+        },
+        {
+          "name": "Japanese pork bowl",
+          "price": 60
+        },
+        {
+          "name": "Japanese chicken drumstick bowl",
+          "price": 55
+        },
+        {
+          "name": "Japanese fried chicken bowl",
+          "price": 65
+        },
+        {
+          "name": "Fried shrimp bowl",
+          "price": 75
+        },
+        {
+          "name": "Chicken fillet bowl",
+          "price": 60
+        },
+        {
+          "name": "Japanese chicken fillet on rice",
+          "price": 60
+        },
+        {
+          "name": "Japanese pork fillet on rice",
+          "price": 65
+        },
+        {
+          "name": "Cheese chicken fillet bowl",
+          "price": 65
+        },
+        {
+          "name": "Cheese pork fillet bowl",
+          "price": 80
+        },
+        {
+          "name": "Filsh fillet bowl (fried)",
+          "price": 65
+        },
+        {
+          "name": "Kimchi pork bowl",
+          "price": 60
+        },
+        {
+          "name": "Satay sauce beef bowl",
+          "price": 75
+        },
+        {
+          "name": "Satay sauce pork bowl",
+          "price": 60
+        },
+        {
+          "name": "Satay sauce chicken bowl",
+          "price": 60
+        },
+        {
+          "name": "Croquette bowl (Japanese)",
+          "price": 65
+        },
+        {
+          "name": "Fish fillet (boiled)",
+          "price": 70
+        },
+        {
+          "name": "Choose two bowl: Japanese chicken/pork, beef, kimchi pork",
+          "price": 75
+        },
+        {
+          "name": "Curry rice",
+          "price": 50
+        },
+        {
+          "name": "Curry chicken",
+          "price": 65
+        },
+        {
+          "name": "Curry pork",
+          "price": 70
+        },
+        {
+          "name": "Curry beef",
+          "price": 80
+        },
+        {
+          "name": "Curry fish",
+          "price": 75
+        },
+        {
+          "name": "Curry cheese chicken",
+          "price": 75
+        },
+        {
+          "name": "Curry cheese pork",
+          "price": 85
+        },
+        {
+          "name": "Curry croquette (Japanese)",
+          "price": 75
         }
       ]
     },
@@ -38,7 +265,7 @@
       "dishes": []
     },
     {
-      "name": "anna's kitchen",
+      "name": "amani fusion kitchen",
       "dishes": [
         {
           "name": "Singaporean Chicken Curry served with rice",
@@ -49,14 +276,125 @@
           "price": 100
         },
         {
+          "name": "Bak kut teh noodle soup with pork chops",
+          "price": 95
+        },
+        {
+          "name": "Bak kut teh glass noodle souup with pork chops",
+          "price": 95
+        },
+        {
+          "name": "Bak kut teh glass noodle soup",
+          "price": 65
+        },
+        {
+          "name": "Bak kut teh noodle soup",
+          "price": 65
+        },
+        {
           "name": "Chicken Nanban served with rice",
           "price": 90
+        },
+        {
+          "name": "Miso glaze fried chicken served with rice",
+          "price": 90
+        },
+        {
+          "name": "Lava cheese beef burger patty served with rice",
+          "price": 90
+        },
+        {
+          "name": "Chinese cabbage sauerkraut and pork hot pot w/ rice",
+          "price": 90
+        },
+        {
+          "name": "Seafood noodle hot pot",
+          "price": 85
+        },
+        {
+          "name": "Rice with pad krapow minced pork",
+          "price": 75
+        },
+        {
+          "name": "Pork shogayaki (ginger flavor) rice bowl",
+          "price": 75
+        },
+        {
+          "name": "Japanese-style sukiyaki pork rice bowl",
+          "price": 65
+        },
+        {
+          "name": "Japanese-style Nikujaga (pork and potato stew) rice bowl",
+          "price": 65
+        },
+        {
+          "name": "Noodles in chicken and mushroom soup",
+          "price": 75
+        },
+        {
+          "name": "Thin noodles in sesame oil flavored chicken soup",
+          "price": 75
+        },
+        {
+          "name": "Ramen noodles served with stir-fried vegetables and pork",
+          "price": 65
+        },
+        {
+          "name":
+            "Noodles with zhaijiang sauce, ground pork in browned soybean paste",
+          "price": 55
+        },
+        {
+          "name": "Noodles with shozi sauce, braised minced pork and mushroom",
+          "price": 55
+        },
+        {
+          "name": "Noodles with minced pork in tomato sauce",
+          "price": 55
+        },
+        {
+          "name":
+            "Noodle salad topped with sesame sauce & ground pork in zhajiang sauce (browned soybean paste)",
+          "price": 60
+        },
+        {
+          "name": "Noodle salad with pulled chicken strips",
+          "price": 60
+        },
+        {
+          "name": "Rice topped with mushroom and chicken",
+          "price": 75
+        },
+        {
+          "name": "Rice with pulled chicken breast strips",
+          "price": 60
+        },
+        {
+          "name": "Rice with shaozi sauce, braised minced pork and mushroom",
+          "price": 55
+        },
+        {
+          "name": "Mushroom and chicken soup",
+          "price": 55
+        },
+        {
+          "name": "Chicken soup with sesame oil flavor",
+          "price": 55
+        },
+        {
+          "name": "Poached seasonal vegetables with braised pork dressing",
+          "price": 30
         }
       ]
     },
     {
-      "name": "halal food",
-      "dishes": []
+      "name": "mediterranean",
+      "dishes": [
+        {
+          "name": "Mediterranean food",
+          "price": "70-95"
+        }
+      ]
     },
     {
       "name": "pork rib rice",
@@ -68,7 +406,72 @@
     },
     {
       "name": "breakfast",
-      "dishes": []
+      "dishes": [
+        {
+          "name": "Zinger burger, hash brown ",
+          "price": 74
+        },
+        {
+          "name": "Pork cheese burger, hash brown ",
+          "price": 65
+        },
+        {
+          "name": "Codfish burger, hash brown ",
+          "price": 74
+        },
+        {
+          "name": "Fried chicken chop burger, hash brown ",
+          "price": 60
+        },
+        {
+          "name": "Pepper pork chop and cheese burger, hash brown ",
+          "price": 68
+        },
+        {
+          "name": "Ham, cheese and egg sandwich ",
+          "price": 40
+        },
+        {
+          "name": "Club sandwich ",
+          "price": 55
+        },
+        {
+          "name": "Fruit and vegetable club sandwich ",
+          "price": 60
+        },
+        {
+          "name": "Corn omelet, chicken nuggets ",
+          "price": 65
+        },
+        {
+          "name": "Radish cake, egg ",
+          "price": 40
+        },
+        {
+          "name": "Porkchop teppanyaki noodles with pepper or meat sauce, egg ",
+          "price": 65
+        },
+        {
+          "name": "Hash brown and cheese egg sandwich ",
+          "price": 50
+        },
+        {
+          "name": "Teppanyaki noodles, egg ",
+          "price": 50
+        },
+        {
+          "name": "Chicken with Szechuan pepper noodles, egg ",
+          "price": 65
+        },
+        {
+          "name": "Cheese flatbread, toast ",
+          "price": 40
+        },
+        {
+          "name": "Fried dumplings, hash brown ",
+          "price": 50
+        }
+      ]
     },
     {
       "name": "taiwan food",
@@ -76,7 +479,16 @@
     },
     {
       "name": "buffet",
-      "dishes": []
+      "dishes": [
+        {
+          "name": "Various dishes",
+          "price": "60-120"
+        },
+        {
+          "name": "Rice",
+          "price": 5
+        }
+      ]
     }
   ]
 }
