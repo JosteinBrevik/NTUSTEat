@@ -3,7 +3,7 @@ import {
   Text,
   View,
   FlatList,
-  TouchableHighlight,
+  TouchableOpacity,
   Alert,
   StyleSheet
 } from 'react-native';
@@ -29,7 +29,7 @@ class Cantena extends React.Component {
         <FlatList
           data={this.state.restaurants}
           renderItem={({ item }) => (
-            <TouchableHighlight
+            <TouchableOpacity
               style={styles.listItem}
               onPress={() => {
                 selectedItem = this.state.restaurantDishes.filter(
@@ -43,7 +43,7 @@ class Cantena extends React.Component {
               }}
             >
               <Text style={styles.itemText}>{item.name.toUpperCase()}</Text>
-            </TouchableHighlight>
+            </TouchableOpacity>
           )}
           keyExtractor={(item, index) => index}
         />
@@ -103,7 +103,7 @@ const styles = StyleSheet.create({
 
   itemText: {
     fontFamily: 'Roboto',
-    marginLeft: 15,
+    marginLeft: 5,
     fontSize: 20,
     padding: 10
   }
