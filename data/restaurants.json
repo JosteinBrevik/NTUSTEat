@@ -11,7 +11,7 @@
         {
           "name": "japanese curry",
           "description":
-            "Various rice bowls, with and without curry. Also known as \"Blue place\""
+            "Various rice bowls, with and without curry. Known as the \"Blue place\""
         },
         {
           "name": "steak house",
@@ -21,7 +21,7 @@
         {
           "name": "amani fusion kitchen",
           "description":
-            "Dishes from all around Asia, especially known for its Chicken Nanban and Singaporean chicken curry. Known as the \"Orange place\""
+            "Dishes from all around Asia, especially famous for its Chicken Nanban and Singaporean chicken curry. Known as the \"Orange place\""
         },
         {
           "name": "mediterranean",
@@ -47,15 +47,30 @@
       "name": "EE",
       "restaurants": [
         { "name": "chinese pastries and snacks", "description": "K" },
-        { "name": "stewed delicacies", "description": "L" },
+        {
+          "name": "tian sia life mall",
+          "description":
+            "Noodles of all kinds, but what separates this shop from the others is the black pepper and bolognese versions."
+        },
         { "name": "bakery", "description": "M" },
         { "name": "vegetarian buffet", "description": "N" },
-        { "name": "steamed and fried dumplings", "description": "O" },
+        {
+          "name": "steamed and fried dumplings",
+          "description":
+            "EE cantina's #1 spot for dumplings, here you can also find cheap noodle dishes, wontons and comforting bowls of soup. Try "
+        },
         { "name": "general buffet", "description": "P" },
-        { "name": "shallot pie", "description": "Q" },
+        {
+          "name": "shallot pie",
+          "description":
+            "Shallot pancakes with soy sauce, spicy sauce and pepper. A great snack for when you just need something for the road. Every dish comes with egg and a drink"
+        },
         { "name": "japanese food", "description": "R" },
-        { "name": "hot snacks", "description": "S" },
-        { "name": "drink shop", "description": "T" }
+        {
+          "name": "hot snacks",
+          "description":
+            "Burgers, toasts, subs, and burritos. Also provides sets with milk tea and side dishes at a discount"
+        }
       ]
     },
     {

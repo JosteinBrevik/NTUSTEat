@@ -5,8 +5,113 @@
       "dishes": []
     },
     {
-      "name": "stewed delicacies",
-      "dishes": []
+      "name": "tian sia life mall",
+      "dishes": [
+        {
+          "name": "Signature sauce noodles",
+          "price": 35
+        },
+        {
+          "name": "Wontons in chili oil",
+          "price": 40
+        },
+        {
+          "name": "Wontons in chili oil sauce noodles",
+          "price": 55
+        },
+        {
+          "name": "Fried instant noodles (beef/pork)",
+          "price": 65
+        },
+        {
+          "name": "Mutton (satay sauce) noodles",
+          "price": 60
+        },
+        {
+          "name": "Meat ball soup with radish",
+          "price": 20
+        },
+        {
+          "name": "Tomato vegetable soup",
+          "price": 20
+        },
+        {
+          "name": "Wonton soup",
+          "price": 30
+        },
+        {
+          "name": "Noodles with bolognese/black pepper cream sauce",
+          "price": 50
+        },
+        {
+          "name":
+            "Noodles with bolognese/black pepper cream sauce and fried chicken chops",
+          "price": 65
+        },
+        {
+          "name":
+            "Noodles with bolognese/black pepper cream sauce and fried pork chops",
+          "price": 65
+        },
+        {
+          "name":
+            "Noodles with bolognese/black pepper cream sauce and kara chicken leg",
+          "price": 70
+        },
+        {
+          "name":
+            "Noodles with bolognese/black pepper cream sauce and chicken leg",
+          "price": 80
+        },
+        {
+          "name": "Noodles with bolognese/black pepper cream sauce and steak",
+          "price": 80
+        },
+        {
+          "name": "Tomato vegetables noodle soup",
+          "price": 45
+        },
+        {
+          "name": "Meat ball noodles soup",
+          "price": 40
+        },
+        {
+          "name": "Wonton noodles",
+          "price": 45
+        },
+        {
+          "name": "Squeezed vegetables and shredded meat noodle soup",
+          "price": 40
+        },
+        {
+          "name": "Beef noodle soup",
+          "price": 50
+        },
+        {
+          "name": "Crispy spare-ribs noodle soup",
+          "price": 60
+        },
+        {
+          "name": "Wonton noodles with negetables ",
+          "price": 60
+        },
+        {
+          "name": "Wonton beef soup noodles",
+          "price": 65
+        },
+        {
+          "name": "Beef noodle soup",
+          "price": 75
+        },
+        {
+          "name": "Beef rice noodles",
+          "price": 75
+        },
+        {
+          "name": "Pot noodle",
+          "price": 65
+        }
+      ]
     },
     {
       "name": "bakery",
@@ -27,7 +132,122 @@
     },
     {
       "name": "steamed and fried dumplings",
-      "dishes": []
+      "dishes": [
+        {
+          "name": "Cabbage and pork pan-fried dumpling (1)",
+          "price": 4.5
+        },
+        {
+          "name": "Leek and pork pan-fried dumpling (1)",
+          "price": 5
+        },
+        {
+          "name": "Korean style spicy pan-fried dumpling (1)",
+          "price": 5
+        },
+        {
+          "name": "Hot and sour soup",
+          "price": 27
+        },
+        {
+          "name": "Corn chowder",
+          "price": 27
+        },
+        {
+          "name": "Swordfish and calamari ball soup",
+          "price": 27
+        },
+        {
+          "name":
+            "Vegetable and pork wonton with chili sauce and Japanese dressing(6 wontons)",
+          "price": 65
+        },
+        {
+          "name": "Cabbage and pork dumpling (1)",
+          "price": 5
+        },
+        {
+          "name": "Leek and pork dumpling (1)",
+          "price": 5
+        },
+        {
+          "name": "Korean style spicy dumpling (1)",
+          "price": 5
+        },
+        {
+          "name": "Curry flavored pork dumpling (1)",
+          "price": 5
+        },
+        {
+          "name": "Garden vegetable dumpling (1)",
+          "price": 5
+        },
+        {
+          "name": "Corn and pork dumpling (1)",
+          "price": 5.5
+        },
+        {
+          "name": "Pork and shrimp dumpling",
+          "price": 8
+        },
+        {
+          "name":
+            "Cabbage and pork dumpling with hot and sour soup/corn chowder (8 dumplings)",
+          "price": 65
+        },
+        {
+          "name": "Noodles with traditional style sauce",
+          "price": 35
+        },
+        {
+          "name": "Noodles with spicy homemade sauce",
+          "price": 35
+        },
+        {
+          "name": "Noodles with sesame sauce",
+          "price": 40
+        },
+        {
+          "name": "Noodles with black sesame sauce",
+          "price": 40
+        },
+        {
+          "name": "Hot and sour noodle soup",
+          "price": 55
+        },
+        {
+          "name": "Set 1: Pork dumplings (10pcs) + soup",
+          "price": 70
+        },
+        {
+          "name": "Set 2: Leek pot dumplings (10pcs) + soup",
+          "price": 70
+        },
+        {
+          "name": "Set 3: Pork pot stickers (10pcs) + soup",
+          "price": 70
+        },
+        {
+          "name": "Set 4: Leek pot stickers (10pcs) + soup",
+          "price": 70
+        },
+        {
+          "name": "Set 5: Sour and spicy noodle soup + pot stickers (5pcs)",
+          "price": 55
+        },
+        {
+          "name": "Set 6: Pork pot stickers (10pcs) + sweet soybean milk",
+          "price": 60
+        },
+        {
+          "name": "Set 7: Pork dumplings (10pcs) + sweet soybean milk",
+          "price": 65
+        },
+        {
+          "name": "Set 8: Leek pot dumplings (10pcs) + sweet soybean milk",
+          "price": 65
+        }
+      ]
     },
     {
       "name": "general buffet",
@@ -35,7 +255,84 @@
     },
     {
       "name": "shallot pie",
-      "dishes": []
+      "dishes": [
+        {
+          "name": "Set 1: Pancake, hash brown",
+          "price": 50
+        },
+        {
+          "name": "Set 2: Pancake, spicy smoked chicken",
+          "price": 50
+        },
+        {
+          "name": "Set 3: Pancake, chicken nuggets and floss",
+          "price": 55
+        },
+        {
+          "name": "Set 4: Pancake, Japanese fried rice ball",
+          "price": 60
+        },
+        {
+          "name": "Set 5: Pancake, ham, lettuce",
+          "price": 50
+        },
+        {
+          "name": "Set 6a: Pancake, mustard beef",
+          "price": 50
+        },
+        {
+          "name": "Set 6b: Pancake, thick cut beef",
+          "price": 75
+        },
+        {
+          "name": "Set 7: Pancake, pork, chicken",
+          "price": 60
+        },
+        {
+          "name": "Set 8: Pancake, fried chicken",
+          "price": 60
+        },
+        {
+          "name": "Set 9: Pancake, ham, bacon, cheese",
+          "price": 65
+        },
+        {
+          "name": "Set 10: Pancake with douhua (soft tofu) on the side",
+          "price": 60
+        },
+        {
+          "name": "Set 11: Pancake, cuttlefish",
+          "price": 60
+        },
+        {
+          "name": "Set 12: Pancake, lettuce, Thai chicken leg",
+          "price": 70
+        },
+        {
+          "name": "Set 13: Pancake, Icelandic salmon steak, basil",
+          "price": 70
+        },
+        {
+          "name": "Set 14: Pancake, acacia salad (no egg)",
+          "price": 55
+        },
+        {
+          "name": "Set 15: Pancake, Korean kimchi, cheese",
+          "price": 60
+        },
+        {
+          "name": "Set 16: Pancake, Thai black pepper pork chop, lettuce",
+          "price": 60
+        },
+        {
+          "name": "Set 17: Pancake, black pepper squid, corn",
+          "price": 50
+        },
+        {
+          "name": "Set 18: Pancake, pork chop sambo (ham, chicken)",
+          "price": 70
+        }
+      ]
     },
     {
       "name": "japanese food",
@@ -43,11 +340,157 @@
     },
     {
       "name": "hot snacks",
-      "dishes": []
-    },
-    {
-      "name": "drink shop",
-      "dishes": []
+      "dishes": [
+        {
+          "name": "Pork chop/tuna/bacon hamburger",
+          "price": 30
+        },
+        {
+          "name": "Fried chicken platoon/hash brown hamburger",
+          "price": 35
+        },
+        {
+          "name": "Pork chop with black pepper",
+          "price": 35
+        },
+        {
+          "name": "Lemon chicken",
+          "price": 45
+        },
+        {
+          "name": "Thick-cut spicy chicken row",
+          "price": 45
+        },
+        {
+          "name": "Fried boneless chicken",
+          "price": 45
+        },
+        {
+          "name":
+            "Cheese cake (Chocolate/peanut/strawberry/coconut/garlic/butter",
+          "price": 35
+        },
+        {
+          "name": "Cheese cake (Ham/pork floss/bacon/tuna/cheese",
+          "price": 40
+        },
+        {
+          "name": "Ham/pork floss toast",
+          "price": 20
+        },
+        {
+          "name": "Bacon/tuna toast",
+          "price": 25
+        },
+        {
+          "name": "Hash brown toast",
+          "price": 35
+        },
+        {
+          "name": "Fried chick platoon toast",
+          "price": 35
+        },
+        {
+          "name": "Pork chop with black pepper toast",
+          "price": 35
+        },
+        {
+          "name": "Lemon chicken toast",
+          "price": 45
+        },
+        {
+          "name": "Thick-cut spicy chicken row toast",
+          "price": 45
+        },
+        {
+          "name": "Fried boneless chicken toast",
+          "price": 45
+        },
+        {
+          "name": "Deluxe sandwich",
+          "price": 50
+        },
+        {
+          "name": "Baked fruits and vegetable deluxe sandwich",
+          "price": 55
+        },
+        {
+          "name": "Thin toast",
+          "price": 15
+        },
+        {
+          "name": "Thick toast",
+          "price": 20
+        },
+        {
+          "name": "Chinese omelet",
+          "price": 20
+        },
+        {
+          "name": "Chinese omelet (ham/fried pork floss/sweet corn",
+          "price": 25
+        },
+        {
+          "name": "Chinese omelet (bacon/cheese/tuna)",
+          "price": 30
+        },
+        {
+          "name": "Turnip cake",
+          "price": 30
+        },
+        {
+          "name": "Chicken nuggets (6pcs)",
+          "price": 30
+        },
+        {
+          "name": "Hash brown",
+          "price": 15
+        },
+        {
+          "name": "Hot dog (3pcs)",
+          "price": 15
+        },
+        {
+          "name": "Lemon chicken strips (4pcs)",
+          "price": 40
+        },
+        {
+          "name": "German sausage",
+          "price": 25
+        },
+        {
+          "name": "Fried egg",
+          "price": 10
+        },
+        {
+          "name": "Teppanyaki noodle (tomato sauce/black pepper sauce)",
+          "price": 40
+        },
+        {
+          "name": "German sausage submarine",
+          "price": 55
+        },
+        {
+          "name": "Tuna cheese submarine",
+          "price": 55
+        },
+        {
+          "name": "Bacon ham cheese submarine",
+          "price": 55
+        },
+        {
+          "name": "Lemon chicken lettuce burrito",
+          "price": 55
+        },
+        {
+          "name": "German sausage lettuce burrito",
+          "price": 55
+        },
+        {
+          "name": "Bacon with ham and cheese lettuce burrito",
+          "price": 55
+        }
+      ]
     }
   ]
 }
