@@ -4,9 +4,9 @@
       "name": "Sports",
       "restaurants": [
         {
-          "name": "noodles and dumplings",
+          "name": "amani fusion kitchen",
           "description":
-            "Serving a large selection of noodle, dumpling and wonton dishes, this is the place to get your asian on"
+            "Dishes from all around Asia, especially famous for its Chicken Nanban and Singaporean chicken curry. Known as the \"Orange place\""
         },
         {
           "name": "japanese curry",
@@ -19,66 +19,115 @@
             "Noodle or rice dishes that include steak and porkchop toppings. Served on hot plates. Known as the \"Green place\" "
         },
         {
-          "name": "amani fusion kitchen",
-          "description":
-            "Dishes from all around Asia, especially famous for its Chicken Nanban and Singaporean chicken curry. Known as the \"Orange place\""
-        },
-        {
           "name": "mediterranean",
           "description":
             "Food from all over the Mediterranean, usually involves beef, pork or fish. Many of the dishes are gratined, making this one of the few places at campus you can get cheesy food. Served with rice or macaroni. Menu changes weekly"
         },
-        { "name": "pork rib rice", "description": "F" },
-        { "name": "korean food", "description": "G" },
+        {
+          "name": "noodles and dumplings",
+          "description":
+            "Serving a large selection of noodle, dumpling and wonton dishes, this is the place to get your asian on"
+        },
+        {
+          "name": "buffet",
+          "description":
+            "Provides a varied selection of meat, vegetables, fish and more. Perfect place if you're in the mood for everything. Price is based on weight"
+        },
+        {
+          "name": "korean foods",
+          "description":
+            "Your one and only place to get some real, solid bibimbap, kimchi hotpot and other Korean dishes."
+        },
+
         {
           "name": "breakfast",
           "description":
             "A popular place for a nice snack, each price includes a refreshing glass of milk tea"
         },
-        { "name": "taiwan food", "description": "I" },
         {
-          "name": "buffet",
+          "name": "taiwan food",
           "description":
-            "Provides a varied selection of meat, vegetables, fish and more. Perfect place if you're in the mood for everything. Price is based on weight"
+            "Chinese breakfast items and taiwanese cuisine combined for some real authentic, old school snacks and meals"
+        },
+        {
+          "name": "orange rice place",
+          "description":
+            "Rice with a large assortment of meats, and your free choice of vegetables from today's selection"
+        },
+        {
+          "name": "yuloong noodles",
+          "description": "Noodles and soups, including the classic beef noodles"
         }
       ]
     },
     {
       "name": "EE",
       "restaurants": [
-        { "name": "chinese pastries and snacks", "description": "K" },
+        {
+          "name": "self serve",
+          "description":
+            "Pick your own meal, freshly prepared in front of you. Also know as \"That place with all the flames\". Price depends on which ingredients and combos you want."
+        },
         {
           "name": "tian sia life mall",
           "description":
             "Noodles of all kinds, but what separates this shop from the others is the black pepper and bolognese versions."
         },
-        { "name": "bakery", "description": "M" },
-        { "name": "vegetarian buffet", "description": "N" },
+        {
+          "name": "bakery",
+          "description":
+            "Serves a selection of different cakes, breads, pastries, sandwiches as well as savory snacks reminiscent of pizzas and hot dogs. Selection changes often, so there is no set menu"
+        },
+        {
+          "name": "vegetarian buffet",
+          "description":
+            "A wide range of delicious greens for when you don't feel like eating meat. Price varies"
+        },
         {
           "name": "steamed and fried dumplings",
           "description":
             "EE cantina's #1 spot for dumplings, here you can also find cheap noodle dishes, wontons and comforting bowls of soup. Try "
         },
-        { "name": "general buffet", "description": "P" },
+        {
+          "name": "general buffet",
+          "description":
+            "Provides a varied selection of meat, vegetables, fish and more. Perfect place if you're in the mood for everything. Price is based on weight"
+        },
         {
           "name": "shallot pie",
           "description":
             "Shallot pancakes with soy sauce, spicy sauce and pepper. A great snack for when you just need something for the road. Every dish comes with egg and a drink"
         },
-        { "name": "japanese food", "description": "R" },
+        {
+          "name": "japanese food",
+          "description":
+            "Rice, donburi, miso soup and omelet rice provides a taste of the land of the rising sun"
+        },
         {
           "name": "hot snacks",
           "description":
             "Burgers, toasts, subs, and burritos. Also provides sets with milk tea and side dishes at a discount"
+        },
+        {
+          "name": "nice rice at a good price",
+          "description":
+            "When all you need is some good old rice with meat and vegetables, this spot provides cheap and quick access to exactly what you need. Choose between small and large portions"
         }
       ]
     },
     {
       "name": "Faculty",
       "restaurants": [
-        { "name": "general buffet", "description": "U" },
-        { "name": "fast-food and noodles", "description": "V" },
-        { "name": "tea-bar", "description": "W" }
+        {
+          "name": "general buffet",
+          "description":
+            "Provides a varied selection of meat, vegetables, fish and more. Perfect place if you're in the mood for everything. Price is based on weight."
+        },
+        {
+          "name": "su hung restaurant",
+          "description":
+            "The most famous honey chicken in town, there's a reason why the faculty have made this place their go-to."
+        }
       ]
     }
   ]

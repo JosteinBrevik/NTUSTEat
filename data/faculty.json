@@ -2,15 +2,57 @@
   "restaurants": [
     {
       "name": "general buffet",
-      "dishes": []
+      "dishes": [
+        {
+          "name": "Buffet",
+          "price": "60-120"
+        },
+        {
+          "name": "Rice",
+          "price": 5
+        }
+      ]
     },
     {
-      "name": "fast-food and noodles",
-      "dishes": []
-    },
-    {
-      "name": "tea-bar",
-      "dishes": []
+      "name": "su hung restaurant",
+      "dishes": [
+        {
+          "name": "Honey chicken leg rice",
+          "price": 80
+        },
+        {
+          "name": "Roasted duck rice",
+          "price": 65
+        },
+        {
+          "name": "Cheese chicken rice",
+          "price": 55
+        },
+        {
+          "name": "BBQ'd rice",
+          "price": 70
+        },
+        {
+          "name": "Taiwanese sausage rice",
+          "price": 60
+        },
+        {
+          "name": "Fried chicken rice",
+          "price": 65
+        },
+        {
+          "name": "Steamed fish dinner",
+          "price": 65
+        },
+        {
+          "name": "Fried chicken wing rice",
+          "price": 65
+        },
+        {
+          "name": "Chicken leg rice",
+          "price": 75
+        }
+      ]
     }
   ]
 }

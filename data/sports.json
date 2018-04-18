@@ -72,7 +72,7 @@
           "price": 70
         },
         {
-          "name": "ADD THIS ONE",
+          "name": "Egg fried rice with ham",
           "price": 70
         },
         {
@@ -104,7 +104,7 @@
           "price": 65
         },
         {
-          "name": "Ixed wonton with soup",
+          "name": "Iced wonton with soup",
           "price": 60
         },
         {
@@ -223,7 +223,7 @@
           "price": 70
         },
         {
-          "name": "Choose two bowl: Japanese chicken/pork, beef, kimchi pork",
+          "name": "Choose two bowl: Japanese chicken/pork/beef/kimchi pork",
           "price": 75
         },
         {
@@ -262,7 +262,76 @@
     },
     {
       "name": "steak house",
-      "dishes": []
+      "dishes": [
+        {
+          "name": "Steak with black pepper sauce",
+          "price": 160
+        },
+        {
+          "name": "Steak with mushroom sauce",
+          "price": 160
+        },
+        {
+          "name": "Sirloin with black pepper sauce",
+          "price": 110
+        },
+        {
+          "name": "Sirloin with mushroom sauce",
+          "price": 110
+        },
+        {
+          "name": "Boneless chicken thigh with black pepper sauce",
+          "price": 110
+        },
+        {
+          "name": "Boneless chicken thigh with mushroom sauce",
+          "price": 110
+        },
+        {
+          "name": "Pork chop with black pepper sauce",
+          "price": 110
+        },
+        {
+          "name": "Pork chop with mushroom sauce",
+          "price": 110
+        },
+        {
+          "name": "Fried cod fillet",
+          "price": 110
+        },
+        {
+          "name": "Stew beef rice",
+          "price": 85
+        },
+        {
+          "name": "Teppanyaki beef rice",
+          "price": 80
+        },
+        {
+          "name": "Teppanyaki mutton rice",
+          "price": 85
+        },
+        {
+          "name": "Teppanyaki seafood rice",
+          "price": 85
+        },
+        {
+          "name": "Teppanyaki pork rice",
+          "price": 70
+        },
+        {
+          "name": "Teppanyaki chicken rice",
+          "price": 70
+        },
+        {
+          "name": "Teppanyaki mushroom rice",
+          "price": 65
+        },
+        {
+          "name": "Teppanyaki noodles",
+          "price": 65
+        }
+      ]
     },
     {
       "name": "amani fusion kitchen",
@@ -475,7 +544,173 @@
     },
     {
       "name": "taiwan food",
-      "dishes": []
+      "dishes": [
+        {
+          "name": "Iced rice and peanut milk",
+          "price": 15
+        },
+        {
+          "name": "Steamed bread",
+          "price": 10
+        },
+        {
+          "name": "Steamed bread with egg",
+          "price": 20
+        },
+        {
+          "name": "Pork bun",
+          "price": 15
+        },
+        {
+          "name": "Vegetable bun",
+          "price": 15
+        },
+        {
+          "name": "Handmade Chinese omelet",
+          "price": 25
+        },
+        {
+          "name": "Flaky scallion pancake",
+          "price": 20
+        },
+        {
+          "name": "Flaky scallion pancake with egg",
+          "price": 30
+        },
+        {
+          "name": "Rice balls",
+          "price": 25
+        },
+        {
+          "name": "Rice balls with egg",
+          "price": 35
+        },
+        {
+          "name": "Fried dumplings",
+          "price": 25
+        },
+        {
+          "name": "Hong Kong-style radish cake",
+          "price": 25
+        },
+        {
+          "name": "Omelet with chopped scallions",
+          "price": 10
+        },
+        {
+          "name": "Eighteen Lords Temple style meat dumplings",
+          "price": 40
+        },
+        {
+          "name": "Rice tube pudding",
+          "price": 35
+        }
+      ]
+    },
+    {
+      "name": "orange rice place",
+      "dishes": [
+        {
+          "name": "Rice with assorted vegetables",
+          "price": 45
+        },
+        {
+          "name": "Rice with Chinese sausage",
+          "price": 55
+        },
+        {
+          "name": "Rice with crispy-fried squid",
+          "price": 65
+        },
+        {
+          "name": "Rice with boneless chicken fillet",
+          "price": 70
+        },
+        {
+          "name": "Rice with stewed pork",
+          "price": 65
+        },
+        {
+          "name": "Rice with crispy fried chicken",
+          "price": 65
+        },
+        {
+          "name": "Rice with fried pork chop",
+          "price": 70
+        },
+        {
+          "name": "Rice with Japanese fish fillet",
+          "price": 65
+        },
+        {
+          "name": "Rice with fried chicken leg",
+          "price": 65
+        },
+        {
+          "name": "Rice with diced chicken and three cup sauce",
+          "price": 70
+        },
+        {
+          "name": "Rice with lemon chicken nuggets",
+          "price": 65
+        },
+        {
+          "name": "Rice with chicken leg",
+          "price": 70
+        },
+        {
+          "name": "Rice with spicy fried chicken",
+          "price": 65
+        },
+        {
+          "name": "Rice with pepper onion pork",
+          "price": 70
+        },
+        {
+          "name": "Rice with roasted French chicken legs",
+          "price": 70
+        },
+        {
+          "name": "Rice with fried fish fillet",
+          "price": 65
+        },
+        {
+          "name": "Rice with pork and satay sauce",
+          "price": 75
+        },
+        {
+          "name": "Rice with mutton and satay sauce",
+          "price": 80
+        },
+        {
+          "name": "Rice with corn thickener BBQ sauce beef",
+          "price": 85
+        },
+        {
+          "name": "Rice with corn thickener beef egg",
+          "price": 85
+        },
+        {
+          "name": "Rice with diced chicken and chili",
+          "price": 75
+        },
+        {
+          "name": "Rice with fried chicken chop",
+          "price": 70
+        },
+        {
+          "name": "Rice with crispy fried squid",
+          "price": 75
+        },
+        {
+          "name": "Rice with pork chop",
+          "price": 70
+        },
+        {
+          "name": "Rice with pork cordon bleu",
+          "price": 65
+        }
+      ]
     },
     {
       "name": "buffet",
@@ -487,6 +722,140 @@
         {
           "name": "Rice",
           "price": 5
+        }
+      ]
+    },
+    {
+      "name": "yuloong noodles",
+      "dishes": [
+        {
+          "name": "Beef noodles",
+          "price": 110
+        },
+        {
+          "name": "Noodles in beef soup (w/o beef)",
+          "price": 50
+        },
+        {
+          "name": "Sour and hot soup noodles",
+          "price": 50
+        },
+        {
+          "name": "Corn soup noodles",
+          "price": 50
+        },
+        {
+          "name": "Hot dry noodles",
+          "price": 45
+        },
+        {
+          "name": "Hot dry noodles with beef",
+          "price": 75
+        },
+        {
+          "name": "Braised pork noodles",
+          "price": 50
+        },
+        {
+          "name": "Corn soup",
+          "price": 25
+        },
+        {
+          "name": "Sour and hot soup",
+          "price": 25
+        },
+        {
+          "name": "Pork balls soup",
+          "price": 25
+        },
+        {
+          "name": "Fish balls soup",
+          "price": 25
+        }
+      ]
+    },
+    {
+      "name": "korean foods",
+      "dishes": [
+        {
+          "name": "Korean BBQ pork rice",
+          "price": 70
+        },
+        {
+          "name": "Korean BBQ beef rice",
+          "price": 75
+        },
+        {
+          "name": "Korean BBQ chicken leg rice",
+          "price": 75
+        },
+        {
+          "name": "Bibimbap with vegetables",
+          "price": 50
+        },
+        {
+          "name": "Bibimbap with pork",
+          "price": 80
+        },
+        {
+          "name": "Bibimbap with beef",
+          "price": 85
+        },
+        {
+          "name": "Bibimbap with chicken leg",
+          "price": 85
+        },
+        {
+          "name": "Kimchi hotpot with vegetable",
+          "price": 65
+        },
+        {
+          "name": "Kimchi hotpot with pork",
+          "price": 85
+        },
+        {
+          "name": "Kimchi hotpot with beef",
+          "price": 90
+        },
+        {
+          "name": "Kimchi hotpot with seafood",
+          "price": 100
+        },
+        {
+          "name": "Tofu hotpot with vegetable",
+          "price": 50
+        },
+        {
+          "name": "Tofu hotpot with pork",
+          "price": 85
+        },
+        {
+          "name": "Tofu hotpot with beef",
+          "price": 90
+        },
+        {
+          "name": "Tofu hotpot with seafood",
+          "price": 100
+        },
+        {
+          "name": "Korean noodle with vegetable",
+          "price": 50
+        },
+        {
+          "name": "Korean noodle with pork",
+          "price": 70
+        },
+        {
+          "name": "Korean noodle with beef",
+          "price": 75
+        },
+        {
+          "name": "Korean noodle with chicken leg",
+          "price": 75
+        },
+        {
+          "name": "Korean rice cake",
+          "price": 50
         }
       ]
     }

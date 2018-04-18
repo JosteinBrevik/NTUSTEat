@@ -1,8 +1,13 @@
 {
   "restaurants": [
     {
-      "name": "chinese pastries and snacks",
-      "dishes": []
+      "name": "self serve",
+      "dishes": [
+        {
+          "name": "Pick your own ingredients",
+          "price": "60-150"
+        }
+      ]
     },
     {
       "name": "tian sia life mall",
@@ -115,20 +120,16 @@
     },
     {
       "name": "bakery",
-      "dishes": [
-        {
-          "name": "Burger",
-          "price": 40
-        },
-        {
-          "name": "Custard cake",
-          "price": 22
-        }
-      ]
+      "dishes": []
     },
     {
       "name": "vegetarian buffet",
-      "dishes": []
+      "dishes": [
+        {
+          "name": "Buffet",
+          "price": "60-120"
+        }
+      ]
     },
     {
       "name": "steamed and fried dumplings",
@@ -251,7 +252,16 @@
     },
     {
       "name": "general buffet",
-      "dishes": []
+      "dishes": [
+        {
+          "name": "Buffet dish",
+          "price": "60-120"
+        },
+        {
+          "name": "Rice",
+          "price": 5
+        }
+      ]
     },
     {
       "name": "shallot pie",
@@ -336,7 +346,64 @@
     },
     {
       "name": "japanese food",
-      "dishes": []
+      "dishes": [
+        {
+          "name": "Rice with fried pork",
+          "price": 65
+        },
+        {
+          "name": "Rice with crispy chicken",
+          "price": 69
+        },
+        {
+          "name": "Rice with chicken drumsticks",
+          "price": 65
+        },
+        {
+          "name": "Donburi with beef (large/small)",
+          "price": "70/55"
+        },
+        {
+          "name": "Donburi with chicken & egg (large/small)",
+          "price": "70/55"
+        },
+        {
+          "name": "Donburi with pork & egg (large/small)",
+          "price": "70/55"
+        },
+        {
+          "name": "Donburi with roasted pork (large/small)",
+          "price": "70/55"
+        },
+        {
+          "name": "Donburi with grilled chicken drumstick",
+          "price": 60
+        },
+        {
+          "name": "Omelet rice",
+          "price": 55
+        },
+        {
+          "name": "Omelet rice with fried pork",
+          "price": 75
+        },
+        {
+          "name": "Omelet rice with crispy chicken",
+          "price": 79
+        },
+        {
+          "name": "Vegetable miso soup noodles",
+          "price": 65
+        },
+        {
+          "name": "Roasted pork miso soup noodles",
+          "price": 75
+        },
+        {
+          "name": "BBQ pork miso soup noodles",
+          "price": 75
+        }
+      ]
     },
     {
       "name": "hot snacks",
@@ -489,6 +556,56 @@
         {
           "name": "Bacon with ham and cheese lettuce burrito",
           "price": 55
+        }
+      ]
+    },
+    {
+      "name": "nice rice at a good price",
+      "dishes": [
+        {
+          "name": "Four vegetables and rice",
+          "price": 45
+        },
+        {
+          "name": "Diced pork with rice",
+          "price": 55
+        },
+        {
+          "name": "Pork sausage, BBQ duck, chicken with rice",
+          "price": 75
+        },
+        {
+          "name": "BBQ pork with rice",
+          "price": "60/70"
+        },
+        {
+          "name": "Pork sausage with rice",
+          "price": "60/70"
+        },
+        {
+          "name": "Chicken with rice",
+          "price": "60/70"
+        },
+        {
+          "name": "BBQ duck with rice",
+          "price": "60/70"
+        },
+        {
+          "name":
+            "Rice with select two: BBQ pork, BBQ duck, chicken, pork sausage",
+          "price": "60/70"
+        },
+        {
+          "name": "Sweet sauce chicken leg with rice",
+          "price": 80
+        },
+        {
+          "name": "Chicken leg with rice",
+          "price": 80
+        },
+        {
+          "name": "BBQ duck leg with rice",
+          "price": 80
         }
       ]
     }
