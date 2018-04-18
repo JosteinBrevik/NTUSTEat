@@ -23,8 +23,10 @@ class DishInfo extends React.Component {
         <Text style={styles.itemText}>
           {item.name.toUpperCase()}
           {'\n'}
-          {item.restaurant[0].toUpperCase() + item.restaurant.substr(1)} {' - '}{' '}
-          {item.cafeteria}
+          <Text style={{ color: 'grey' }}>
+            {item.restaurant[0].toUpperCase() + item.restaurant.substr(1)}{' '}
+            {' - '} {item.cafeteria}
+          </Text>
         </Text>
         <Text style={styles.itemPrice}>{item.price},-</Text>
       </View>

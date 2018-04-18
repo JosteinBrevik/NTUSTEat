@@ -25,11 +25,14 @@ class RestaurantMenu extends React.Component {
       ' - ' +
       navigation.state.params.cantina.toUpperCase(),
     headerTitleStyle: {
+      color: 'white',
       fontSize: 15
     },
     headerStyle: {
-      height: 50
-    }
+      height: 50,
+      backgroundColor: 'black'
+    },
+    headerTintColor: 'white'
   });
 
   _openItemOnPress(name) {
@@ -72,8 +75,8 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
-    paddingBottom: 5,
-    paddingTop: 5
+    paddingBottom: 10,
+    paddingTop: 10
   },
   list: {
     flex: 1,
@@ -84,7 +87,7 @@ const styles = StyleSheet.create({
     paddingTop: 5,
     paddingBottom: 10,
     fontSize: 15,
-    backgroundColor: '#EEEEEE',
+    backgroundColor: '#FFFFFF',
     alignItems: 'center',
     textAlign: 'center',
     elevation: 1
