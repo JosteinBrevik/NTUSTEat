@@ -6,22 +6,22 @@
         {
           "name": "amani fusion kitchen",
           "description":
-            "Dishes from all around Asia, especially famous for its Chicken Nanban and Singaporean chicken curry. Known as the \"Orange place\""
+            "Dishes from all around Asia, especially famous for its Chicken Nanban and Singaporean chicken curry. Orange shop on the right hand side"
         },
         {
           "name": "japanese curry",
           "description":
-            "Various rice bowls, with and without curry. Known as the \"Blue place\""
+            "Various rice bowls, with and without curry. Blue shop on the right hand side"
         },
         {
           "name": "steak house",
           "description":
-            "Noodle or rice dishes that include steak and porkchop toppings. Served on hot plates. Known as the \"Green place\" "
+            "Noodle or rice dishes that include steak and porkchop toppings. Served on hot plates. Green shop on the right hand side "
         },
         {
           "name": "mediterranean",
           "description":
-            "Food from all over the Mediterranean, usually involves beef, pork or fish. Many of the dishes are gratined, making this one of the few places at campus you can get cheesy food. Served with rice or macaroni. Menu changes weekly"
+            "Food from all over the Mediterranean, usually involves beef, pork or fish. Many of the dishes are gratined, making this one of the few places at campus you can get cheesy food. Served with rice or macaroni. Menu changes weekly. Located at the back of the cafeteria, right hand side"
         },
         {
           "name": "noodles and dumplings",
@@ -31,12 +31,12 @@
         {
           "name": "buffet",
           "description":
-            "Provides a varied selection of meat, vegetables, fish and more. Perfect place if you're in the mood for everything. Price is based on weight"
+            "Provides a varied selection of meat, vegetables, fish and more. Perfect place if you're in the mood for everything. Price is based on weight. Located at the back of the cafeteria"
         },
         {
           "name": "korean foods",
           "description":
-            "Your one and only place to get some real, solid bibimbap, kimchi hotpot and other Korean dishes."
+            "Your one and only place to get some real, solid bibimbap, kimchi hotpot and other Korean dishes. Located in the back of the cafeteria, on the left"
         },
 
         {
@@ -47,16 +47,17 @@
         {
           "name": "taiwan food",
           "description":
-            "Chinese breakfast items and taiwanese cuisine combined for some real authentic, old school snacks and meals"
+            "Chinese breakfast items and taiwanese cuisine combined for some real authentic, old school snacks and meals. Last shop on the left side"
         },
         {
           "name": "orange rice place",
           "description":
-            "Rice with a large assortment of meats, and your free choice of vegetables from today's selection"
+            "Rice with a large assortment of meats, and your free choice of vegetables from today's selection. Second to last shop on the left side"
         },
         {
           "name": "yuloong noodles",
-          "description": "Noodles and soups, including the classic beef noodles"
+          "description":
+            "Noodles and soups, including the classic beef noodles. Located in the middle of the left side"
         }
       ]
     },

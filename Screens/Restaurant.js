@@ -90,17 +90,20 @@ const styles = StyleSheet.create({
     backgroundColor: '#FFFFFF',
     alignItems: 'center',
     textAlign: 'center',
-    elevation: 1
+    elevation: 1,
+    color: 'black'
   },
   itemText: {
     flex: 4,
     marginLeft: 15,
     marginRight: 25,
-    fontSize: 15
+    fontSize: 15,
+    color: 'black'
   },
   itemPrice: {
     flex: 1,
-    fontSize: 15
+    fontSize: 15,
+    color: 'black'
   }
 });
 export default RestaurantMenu;

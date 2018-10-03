@@ -1,8 +1,4 @@
 import React, { Component } from 'react';
-import { Provider } from 'react-redux';
-import { createStore, applyMiddleware, combineReduxers, compose } from 'redux';
-import thunkMiddleware from 'redux-thunk';
-import createLogger from 'redux-logger';
 import {
   StyleSheet,
   Image,
@@ -34,7 +30,7 @@ const Navigator = StackNavigator({
     screen: MenuScreen,
     navigationOptions: {
       headerTitle: 'NTUST Restaurants',
-      headerRight: <LogoTitle />,
+      //headerRight: <LogoTitle />, only add this back after you know you won't get your ass sued
       headerTitleStyle: {
         color: 'black'
       },

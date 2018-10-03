@@ -134,11 +134,13 @@ const styles = StyleSheet.create({
     flex: 4,
     marginLeft: 15,
     marginRight: 15,
-    fontSize: 15
+    fontSize: 15,
+    color: 'black'
   },
   itemPrice: {
     flex: 1,
-    fontSize: 15
+    fontSize: 15,
+    color: 'black'
   }
 });
 export default SearchField;

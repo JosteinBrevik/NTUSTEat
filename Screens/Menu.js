@@ -105,7 +105,8 @@ const styles = StyleSheet.create({
     fontFamily: 'Roboto',
     marginLeft: 5,
     fontSize: 20,
-    padding: 10
+    padding: 10,
+    color: 'black'
   }
 });
 
@@ -126,6 +127,6 @@ export default TabNavigator(
       activeTintColor: 'white'
     },
     animationEnabled: true,
-    lazy: true
+    lazy: false
   }
 );
