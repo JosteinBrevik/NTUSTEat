@@ -1,27 +1,15 @@
-import React, { Component } from 'react';
-import { Provider } from 'react-redux';
-import { createStore, applyMiddleware, combineReduxers, compose } from 'redux';
-import thunkMiddleware from 'redux-thunk';
-import createLogger from 'redux-logger';
-import {
-  StyleSheet,
-  Image,
-  Text,
-  View,
-  StatusBar,
-  TextInput,
-  Button
-} from 'react-native';
-import { StackNavigator } from 'react-navigation';
+import React from "react";
+import { Image } from "react-native";
+import { StackNavigator } from "react-navigation";
 
-import MenuScreen from './Screens/Menu';
-import RestaurantScreen from './Screens/Restaurant';
+import MenuScreen from "./Screens/Menu";
+import RestaurantScreen from "./Screens/Restaurant";
 
 class LogoTitle extends React.Component {
   render() {
     return (
       <Image
-        source={require('./ntust_logo.png')}
+        source={require("./ntust_logo.png")}
         style={{ width: 30, height: 30, marginRight: 10 }}
       />
     );
@@ -33,21 +21,21 @@ const Navigator = StackNavigator({
   Home: {
     screen: MenuScreen,
     navigationOptions: {
-      headerTitle: 'NTUST Restaurants',
+      headerTitle: "NTUST Restaurants",
       headerRight: <LogoTitle />,
       headerTitleStyle: {
-        color: 'black'
+        color: "black",
       },
       headerStyle: {
-        backgroundColor: 'white',
-        height: 45
+        backgroundColor: "white",
+        height: 45,
       },
-      headerTintColor: '#ddd'
-    }
+      headerTintColor: "#ddd",
+    },
   },
   Restaurant: {
-    screen: RestaurantScreen
-  }
+    screen: RestaurantScreen,
+  },
 });
 
 export default class App extends React.Component {

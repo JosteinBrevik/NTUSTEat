@@ -1,17 +1,15 @@
-import React from 'react';
+import React from "react";
 import {
-  Text,
-  View,
   FlatList,
+  StyleSheet,
+  Text,
   TouchableOpacity,
-  Alert,
-  StyleSheet
-} from 'react-native';
-import { TabNavigator, StackNavigator } from 'react-navigation';
-import RestaurantMenu from './Restaurant.js';
-import SearchField from './Search.js';
+  View,
+} from "react-native";
+import { TabNavigator } from "react-navigation";
+import SearchField from "./Search.js";
 
-var data = require('../data/restaurants.json');
+var data = require("../data/restaurants.json");
 
 class Cantena extends React.Component {
   constructor(props) {
@@ -19,7 +17,7 @@ class Cantena extends React.Component {
     this.state = {
       restaurants: data.cantinas[props.number].restaurants,
       cantina: data.cantinas[props.number].name,
-      restaurantDishes: props.url.restaurants
+      restaurantDishes: props.url.restaurants,
     };
   }
 
@@ -33,12 +31,12 @@ class Cantena extends React.Component {
               style={styles.listItem}
               onPress={() => {
                 selectedItem = this.state.restaurantDishes.filter(
-                  e => e.name === item.name
+                  (e) => e.name === item.name
                 );
-                this.props.navigator.navigate('Restaurant', {
+                this.props.navigator.navigate("Restaurant", {
                   restaurant: item,
                   cantina: this.state.cantina,
-                  dishes: selectedItem[0].dishes
+                  dishes: selectedItem[0].dishes,
                 });
               }}
             >
@@ -58,7 +56,7 @@ class Cantena1 extends React.Component {
       <Cantena
         number="0"
         navigator={this.props.navigation}
-        url={require('../data/sports.json')}
+        url={require("../data/sports.json")}
       />
     );
   }
@@ -70,7 +68,7 @@ class Cantena2 extends React.Component {
       <Cantena
         number="1"
         navigator={this.props.navigation}
-        url={require('../data/ee.json')}
+        url={require("../data/ee.json")}
       />
     );
   }
@@ -82,7 +80,7 @@ class Cantena3 extends React.Component {
       <Cantena
         number="2"
         navigator={this.props.navigation}
-        url={require('../data/faculty.json')}
+        url={require("../data/faculty.json")}
       />
     );
   }
@@ -91,22 +89,22 @@ class Cantena3 extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    alignItems: 'stretch',
-    backgroundColor: '#CCCCCC'
+    alignItems: "stretch",
+    backgroundColor: "#CCCCCC",
   },
   listItem: {
-    backgroundColor: '#EEEEEE',
+    backgroundColor: "#EEEEEE",
     borderWidth: 1,
-    borderColor: '#DDDDDD',
-    width: '100%'
+    borderColor: "#DDDDDD",
+    width: "100%",
   },
 
   itemText: {
-    fontFamily: 'Roboto',
+    fontFamily: "Roboto",
     marginLeft: 5,
     fontSize: 20,
-    padding: 10
-  }
+    padding: 10,
+  },
 });
 
 export default TabNavigator(
@@ -114,18 +112,18 @@ export default TabNavigator(
     Sports: { screen: Cantena1 },
     EE: { screen: Cantena2 },
     Faculty: { screen: Cantena3 },
-    Search: { screen: SearchField }
+    Search: { screen: SearchField },
   },
   {
     navigationOptions: ({ navigation }) => ({}),
     tabBarOptions: {
       style: {
-        backgroundColor: 'black'
+        backgroundColor: "black",
       },
-      activeBackgroundColor: 'gray',
-      activeTintColor: 'white'
+      activeBackgroundColor: "gray",
+      activeTintColor: "white",
     },
     animationEnabled: true,
-    lazy: true
+    lazy: true,
   }
 );

@@ -1,13 +1,12 @@
-import React from 'react';
+import React from "react";
 import {
-  Text,
-  View,
-  FlatList,
-  TouchableOpacity,
   Alert,
-  StyleSheet
-} from 'react-native';
-import { TabNavigator } from 'react-navigation';
+  FlatList,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  View,
+} from "react-native";
 
 class RestaurantMenu extends React.Component {
   constructor(props) {
@@ -15,24 +14,24 @@ class RestaurantMenu extends React.Component {
     this.state = {
       restaurant: props.navigation.state.params.restaurant,
       cantina: props.navigation.state.params.cantina,
-      dishes: props.navigation.state.params.dishes
+      dishes: props.navigation.state.params.dishes,
     };
   }
 
   static navigationOptions = ({ navigation }) => ({
     title:
       navigation.state.params.restaurant.name.toUpperCase() +
-      ' - ' +
+      " - " +
       navigation.state.params.cantina.toUpperCase(),
     headerTitleStyle: {
-      color: 'white',
-      fontSize: 15
+      color: "white",
+      fontSize: 15,
     },
     headerStyle: {
       height: 50,
-      backgroundColor: 'black'
+      backgroundColor: "black",
     },
-    headerTintColor: 'white'
+    headerTintColor: "white",
   });
 
   _openItemOnPress(name) {
@@ -54,7 +53,7 @@ class RestaurantMenu extends React.Component {
                 <Text style={styles.itemText}>{item.name.toUpperCase()}</Text>
                 <Text style={styles.itemPrice}>
                   {item.price}
-                  {',-'}
+                  {",-"}
                 </Text>
               </View>
             </TouchableOpacity>
@@ -68,39 +67,39 @@ class RestaurantMenu extends React.Component {
 
 const styles = StyleSheet.create({
   listItem: {
-    borderColor: '#DDDDDD',
+    borderColor: "#DDDDDD",
     borderBottomWidth: 1,
-    width: '100%',
+    width: "100%",
     flex: 1,
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'center',
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "center",
     paddingBottom: 10,
-    paddingTop: 10
+    paddingTop: 10,
   },
   list: {
     flex: 1,
-    paddingBottom: 10
+    paddingBottom: 10,
   },
   description: {
     paddingHorizontal: 15,
     paddingTop: 5,
     paddingBottom: 10,
     fontSize: 15,
-    backgroundColor: '#FFFFFF',
-    alignItems: 'center',
-    textAlign: 'center',
-    elevation: 1
+    backgroundColor: "#FFFFFF",
+    alignItems: "center",
+    textAlign: "center",
+    elevation: 1,
   },
   itemText: {
     flex: 4,
     marginLeft: 15,
     marginRight: 25,
-    fontSize: 15
+    fontSize: 15,
   },
   itemPrice: {
     flex: 1,
-    fontSize: 15
-  }
+    fontSize: 15,
+  },
 });
 export default RestaurantMenu;

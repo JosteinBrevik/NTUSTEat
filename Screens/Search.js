@@ -1,14 +1,5 @@
-import React from 'react';
-import {
-  Text,
-  TextInput,
-  View,
-  FlatList,
-  TouchableHighlight,
-  Alert,
-  StyleSheet
-} from 'react-native';
-import { TabNavigator } from 'react-navigation';
+import React from "react";
+import { FlatList, StyleSheet, Text, TextInput, View } from "react-native";
 
 class DishInfo extends React.Component {
   constructor(props) {
@@ -22,10 +13,10 @@ class DishInfo extends React.Component {
       <View style={styles.dishRow}>
         <Text style={styles.itemText}>
           {item.name.toUpperCase()}
-          {'\n'}
-          <Text style={{ color: 'grey' }}>
-            {item.restaurant[0].toUpperCase() + item.restaurant.substr(1)}{' '}
-            {' - '} {item.cafeteria}
+          {"\n"}
+          <Text style={{ color: "grey" }}>
+            {item.restaurant[0].toUpperCase() + item.restaurant.substr(1)}{" "}
+            {" - "} {item.cafeteria}
           </Text>
         </Text>
         <Text style={styles.itemPrice}>{item.price},-</Text>
@@ -39,41 +30,41 @@ class SearchField extends React.Component {
     super(props);
     this.state = {
       data: this._getAllDishes(),
-      inputText: '',
+      inputText: "",
       results: [],
-      lastItem: null
+      lastItem: null,
     };
   }
 
   _getAllDishes() {
     //Data: List of objects [name, dishes[]]
     var rawData = [
-      require('../data/sports.json').restaurants,
-      require('../data/ee.json').restaurants,
-      require('../data/faculty.json').restaurants
+      require("../data/sports.json").restaurants,
+      require("../data/ee.json").restaurants,
+      require("../data/faculty.json").restaurants,
     ];
     var data = [
-      ...rawData[0].map(e =>
-        e.dishes.map(f => {
+      ...rawData[0].map((e) =>
+        e.dishes.map((f) => {
           f.restaurant = e.name;
-          f.cafeteria = 'Sports';
+          f.cafeteria = "Sports";
           return f;
         })
       ),
-      ...rawData[1].map(e =>
-        e.dishes.map(f => {
+      ...rawData[1].map((e) =>
+        e.dishes.map((f) => {
           f.restaurant = e.name;
-          f.cafeteria = 'EE';
+          f.cafeteria = "EE";
           return f;
         })
       ),
-      ...rawData[2].map(e =>
-        e.dishes.map(f => {
+      ...rawData[2].map((e) =>
+        e.dishes.map((f) => {
           f.restaurant = e.name;
-          f.cafeteria = 'Faculty';
+          f.cafeteria = "Faculty";
           return f;
         })
-      )
+      ),
     ];
     data = [].concat(...data); //flatten array
 
@@ -83,7 +74,7 @@ class SearchField extends React.Component {
   _search(text) {
     this.setState({ inputText: text });
     var filtered = this.state.data.filter(
-      e => text && e.name.toLowerCase().contains(text.toLowerCase())
+      (e) => text && e.name.toLowerCase().contains(text.toLowerCase())
     );
     this.setState({ results: filtered });
   }
@@ -97,11 +88,11 @@ class SearchField extends React.Component {
       <View style={{ flex: 1 }}>
         <TextInput
           autoFocus={true}
-          ref={input => {
+          ref={(input) => {
             this.nameInput = input;
           }}
           style={{ height: 40 }}
-          onChangeText={text => {
+          onChangeText={(text) => {
             this._search(text);
           }}
           value={this.state.inputText}
@@ -123,22 +114,22 @@ const styles = StyleSheet.create({
   dishRow: {
     //borderColor: '#DDDDDD',
     //borderWidth: 1,
-    width: '100%',
+    width: "100%",
     flex: 1,
-    flexDirection: 'row',
-    alignItems: 'center',
+    flexDirection: "row",
+    alignItems: "center",
     marginBottom: 10,
-    backgroundColor: '#EEEEEE'
+    backgroundColor: "#EEEEEE",
   },
   itemText: {
     flex: 4,
     marginLeft: 15,
     marginRight: 15,
-    fontSize: 15
+    fontSize: 15,
   },
   itemPrice: {
     flex: 1,
-    fontSize: 15
-  }
+    fontSize: 15,
+  },
 });
 export default SearchField;
