@@ -1,4 +1,4 @@
-import RestaurantMenu from "@/Screens/Restaurant";
+import RestaurantMenu from "@/screens/Restaurant";
 import { useNavigation } from "@react-navigation/native";
 import { useLocalSearchParams } from "expo-router";
 import { View } from "react-native";
@@ -16,7 +16,6 @@ const RestaurantRouter = () => {
         headerTitle:  parsedRestaurant?.name.toUpperCase() + (cantinaName ? ` - ${cantinaName.toUpperCase()}` : ''),
         headerBackTitle: cantinaName || 'Cantina',
     });
-    console.log({cantina})
   return (
     <View>
       <RestaurantMenu restaurant={parsedRestaurant} dishes={parsedDishes} />

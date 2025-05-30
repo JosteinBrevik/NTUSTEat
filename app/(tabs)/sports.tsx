@@ -1,5 +1,5 @@
-import Cantena from "@/Screens/Cantena";
 import sportsData from "@/data/sports.json";
+import Cantena from "@/screens/Cantena";
 import React from 'react';
 
 export default function Sports() {
