@@ -3,17 +3,16 @@
     "name": "ntusteat2",
     "slug": "ntusteat2",
     "version": "1.0.0",
-    "sdkVersion": "53.0.0",
+    "sdkVersion": "55.0.0",
     "platforms": [
       "android",
       "ios",
       "web"
     ],
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/adaptive-icon.png",
     "scheme": "ntusteat2",
     "userInterfaceStyle": "automatic",
-    "newArchEnabled": true,
     "ios": {
       "supportsTablet": true
     },
@@ -22,7 +21,6 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true,
       "package": "com.sprekasus.ntusteat"
     },
     "web": {
